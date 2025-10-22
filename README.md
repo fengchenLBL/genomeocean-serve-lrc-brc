@@ -1,6 +1,6 @@
-# GenomeOcean Serve Container
+# [GenomeOcean](https://github.com/jgi-genomeocean/genomeocean) Serve Container
 
-## Building and Running the Container Lawrencium (https://lrc-ondemand.lbl.gov/) / Savio (https://ood.brc.berkeley.edu/)
+## Building and Running the Container on: Lawrencium (https://lrc-ondemand.lbl.gov/) / Savio (https://ood.brc.berkeley.edu/)
 
 ### Build Apptainer .sif File
 #### Set up Apptainer cache directory:
