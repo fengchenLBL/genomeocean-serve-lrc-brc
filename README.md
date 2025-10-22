@@ -24,7 +24,7 @@ apptainer build genomeocean-serve.sif docker://fengchenlbl/genomeocean-serve:lat
 ```
 ls -lh genomeocean-serve.sif
 ```
-* Expected size: ~16.7GB.
+* Expected size: ~8.5GB.
 
 ### Start GenomeOcean Server
 #### Run with GPU and cache binding:
