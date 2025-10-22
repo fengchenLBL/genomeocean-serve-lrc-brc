@@ -11,6 +11,8 @@ export APPTAINER_CACHEDIR=/global/scratch/users/$USER/.apptainer
 
 #### Create a temporary directory for model cache:
 ```
+git clone https://github.com/fengchenLBL/genomeocean-serve-lrc-brc.git
+cd genomeocean-serve-lrc-brc
 mkdir -p ./tmp
 ```
 
