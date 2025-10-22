@@ -78,3 +78,9 @@ curl -X POST http://localhost:8080/embed -H "Content-Type: application/json" -d 
 }'
 ```
   * Expected: `{"predictions":[{"embeddings":[[-6.518601417541504,-6.508556365966797,0.2003813236951828,...]]}`.
+
+#### Debug
+```
+$ netstat -tulnp | grep 8080
+kill -9 PID
+```
