@@ -3,7 +3,7 @@
 This README provides a simple guide to fine-tune the GenomeOcean model (e.g., __`DOEJGI/GenomeOcean-100M`__) using Apptainer (converted from the Docker image __`fengchenlbl/genomeocean:latest`__). It uses LoRA for efficient fine-tuning on a small DNA sequence dataset in FASTA format. This demo is designed for quick testing during meetings or workshops, with a tiny 10-sequence dataset—scale up for real applications.
 
 ## Prerequisites
-- Apptainer installed on your system (common in HPC environments).
+- Apptainer (already install on LRC and BRC).
 - NVIDIA GPU for faster training (use `--nv` flag for GPU passthrough).
 - Docker image: `fengchenlbl/genomeocean:latest` (publicly available).
 - A writable directory for data and caches (e.g., `/global/scratch/users/$USER/genomeocean-serve-lrc-brc/finetune` or a local `./tmp`).
