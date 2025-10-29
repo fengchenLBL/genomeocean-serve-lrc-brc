@@ -153,7 +153,7 @@ print("Fine-tuning complete!")
 - Uses `GenomeOcean-100M` for quick demos (swap to `GenomeOcean-4B` for larger models, but requires more VRAM).
 - Preprocesses FASTA using BioPython (assumed installed in the image).
 - Downloads models/tokenizers to a writable cache (`/data/hf_cache`).
-- Trains with LoRA (efficient adapter-based fine-tuning) for causal language modeling on DNA sequences.
+- Trains with LoRA (efficient adapter-based fine-tuning).
 - With 10 sequences, it runs in seconds; expect overfitting—use larger datasets for production.
 
 ## Step 3: Run the Fine-Tuning
@@ -210,7 +210,6 @@ Fine-tuning complete!
 
 **Notes:**
 - TensorFlow warnings are benign (from the environment; ignore unless issues arise).
-- Kernel warning: Upgrade host kernel to 5.5.0+ if training hangs in larger runs.
 - Outputs: Check `./finetuned_results` for logs/checkpoints and `./finetuned_genomeocean` for the saved model/adapters.
 
 ## Troubleshooting
