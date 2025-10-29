@@ -218,4 +218,4 @@ Fine-tuning complete!
 - **Resources:** ~4-8GB VRAM for `100M` model; use `load_in_8bit=True` in model loading for low-memory setups.
 - **Merging Adapters:** Post-training, add code to merge LoRA into the base model for inference.
 
-For questions, refer to the GenomeOcean repository or Hugging Face docs on transformers/PEFT.
+For questions, refer to the [GenomeOcean](https://github.com/jgi-genomeocean/genomeocean) repository or Hugging Face docs on [transformers/PEFT](https://huggingface.co/docs/peft/index).
